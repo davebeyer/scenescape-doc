@@ -89,6 +89,14 @@ To get started with your own SceneScape:
 (Note that it may take up to 5 minutes for updates to your scenes to
 be noticed by our servers.)
 
+To view your scene with the photo file names shown, add ";editing" to
+the URL, for example:
+
+   ```http://www.scenescape.com/xyz/myfamily.scene;editing```
+
+
+
+
 
 
 
