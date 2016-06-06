@@ -89,15 +89,18 @@ To get started with your own SceneScape:
 (Note that it may take up to 5 minutes for updates to your scenes to
 be noticed by our servers.)
 
-To view your scene with the photo file names shown, add ";editing" to
-the URL, for example:
+## Editing & Troubleshooting
+
+To view your scene with the photo file names shown (e.g., to assist
+with timing your photos to the audio or video), add ";editing" to the
+URL, for example:
 
    ```http://www.scenescape.com/xyz/myfamily.scene;editing```
 
-
-
-
-
+To see notifications of problems with your scenescape script, or other
+errors, open the browser's Developer Tools or Web Inspector window
+while loading the scene and watch for errors printed to the developer
+console.
 
 
 
