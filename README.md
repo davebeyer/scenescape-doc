@@ -56,11 +56,11 @@ many, scenographers.
 
 ## Example Scripts
 
-You can find example scripts under the "examples" folder.  The example
+You can find example scripts under the "examples" folder, and here
+are links to the associated sceneshows:
 scenes are:
 
 * [Example 1](http://www.scenescape.com/doc/examples/ex1)
-
 
 ## SceneScape Script Language
 
