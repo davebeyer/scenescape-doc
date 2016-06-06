@@ -1,0 +1,15 @@
+<scene photo-effect="fadeIn(.5); e-.5:fadeOut(0.5)"
+       video-effect="fadeIn(.5); e-.5:fadeOut(0.5)">
+
+  <sceneprops>
+    <title>Brazil</title>
+    <sceneshot src="http://www.weichertworkforcemobility.com/wp-content/uploads/2016/03/living-in-brazil.jpg"/>
+  </sceneprops>
+
+  <audio src="https://freemusicarchive.org/music/download/e562f2a3b02ded838462fbf2c88d82d0d02f9511" duration="40">
+    <photo src="http://www.minasbrazilianrestaurant.com/wp-content/uploads/2014/09/993017_627732237250549_1990513597_n.jpg"/>
+    <photo src="http://www.destination360.com/south-america/brazil/images/s/brazilian-culture.jpg"/>
+    <photo src="http://s.hswstatic.com/gif/brazilian-traditions-1.jpg"/>
+    <photo src="https://www.ciee.org/study-abroad/images/programs/0193/headers/desktop/rio-de-janeiro-brazil-environmental-sustainability-studies-studying-152.jpg"/>
+  </audio>
+</scene>

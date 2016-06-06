@@ -1,0 +1,8 @@
+DATE="$(date +'%d%b%y')"
+
+################################################
+TITLE="SceneScape Scripts"
+################################################
+
+pandoc --toc -N -V version:"${VERSION}" -V geometry:margin=1in --template=doctemplate.tex --latex-engine=xelatex   -o SceneScapeScripts.pdf  SceneScapeScripts.md
+
