@@ -6,7 +6,7 @@
     <sceneshot src="http://www.weichertworkforcemobility.com/wp-content/uploads/2016/03/living-in-brazil.jpg"/>
   </sceneprops>
 
-  <audio src="https://freemusicarchive.org/music/download/e562f2a3b02ded838462fbf2c88d82d0d02f9511" duration="60">
+  <audio src="/examples/ex1/Radio_Jarocho_and_Zenen_Zeferino_Huervo_-_06_-_Colas.mp3" duration="60">
     <photo src="http://www.minasbrazilianrestaurant.com/wp-content/uploads/2014/09/993017_627732237250549_1990513597_n.jpg"/>
     <photo src="http://www.destination360.com/south-america/brazil/images/s/brazilian-culture.jpg"/>
     <photo src="http://s.hswstatic.com/gif/brazilian-traditions-1.jpg"/>
