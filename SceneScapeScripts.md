@@ -14,7 +14,7 @@ specific HTML, CSS, and Javascript code that knows how to parse,
 render, animate, and interact with the viewer to present a scene,
 possibly along with sub-scenes.
 
-The following examples leverage three built-in stage types: *simple*,
+The following examples leverage three built-in stage types: *show*,
 *image map", and "listing."  See the Initial Stage Types section at
 the bottom for a description of these.
 
@@ -36,7 +36,7 @@ is played in full, and contains three photos which are also presented,
 e.g., overlaying the video in a corner.  The video includes
 
 ```
-    <scene stage="simple">
+    <scene stage="show">
       <audio src="http://media.scenescape.com/ex/I'm_Too_Sexy.mp3" duration="20">
         <text> Can you name the charicatured minions? </text>
         <photo src="http://media.scenescape.com/ex/minion3.jpg">
@@ -56,7 +56,7 @@ e.g., overlaying the video in a corner.  The video includes
 
 ## Example 2 - A Story of a Cowboy.  
 
-Note that on this "simple" stage, which shows only one video or photo
+Note that on this "show" stage, which shows only one video or photo
 element at a time, the parent video element is initially hidden while
 the first two photos are being shown, so is only used for its audio
 during that portion of the scene.  At 18 seconds into the scene, a gap
@@ -74,7 +74,7 @@ Note also that two of the photos include captions, one which waits for
 2 seconds after the presentation of its photo to appear.
 
 ```
-    <scene stage="simple" photo-duration="10">
+    <scene stage="show" photo-duration="10">
       <sceneprops>
         <period begin="2016-01-01" end="2016-06-01"/>
         <description>
@@ -121,7 +121,7 @@ story about Prince performing in the rain at the Super
 Bowl](https://www.youtube.com/watch?v=7NN3gsSf-Ys).
 
 ```
-    <scene stage="simple" photo-duration="10">
+    <scene stage="show" photo-duration="10">
 
       <video src="http://media.scenescape.com/ex/cowboy.mp4">
 
@@ -153,10 +153,10 @@ Bowl](https://www.youtube.com/watch?v=7NN3gsSf-Ys).
 ## Example 4 - Simple, Multi-Scene Sceneshow
 
 This example presents a scenescape that plays three sub-scenes in
-sequence on the "simple" stage:
+sequence on the "show" stage:
 
 ```
-    <scene stage="simple">
+    <scene stage="show">
       <text duration="2">Sights and Sounds of Costa Rica</text>
 
       <scene src="http://scenescape.com/dave/costarica/playagranda.scene"/>
@@ -201,7 +201,7 @@ optional, to provide a background, underscore sound track.
 The variable attributes indicate where on the stagedrop image to
 anchor the scenes (in % from left, % from top).
 
-Note that the sub-scenes may be on a simple stage, or may themselves
+Note that the sub-scenes may be on a show stage, or may themselves
 be on an image map stage.
 
 ## Example 6 - Scene Employing String Templating
@@ -607,7 +607,7 @@ square brackets,
 
 The following initial stage types are planned:
 
-* *simple* - This default stage for a scene, shows one, or a sequence, of scenes along
+* *show* - This default stage for a scene, shows one, or a sequence, of scenes along
    with their sounds, text & comments in a full-page manner, one video
    or image at a time, similar to a photo slideshow.
 

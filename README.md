@@ -50,8 +50,8 @@ many, scenographers.
 * *Stage*
 
    The virtual screen & projector responsible for presenting a
-   sceneshow.  Built-in stages include the "simple" stage which is
-   similar to a slide show for scenes and the "image map" stage for
+   sceneshow.  Built-in stages include the "show" stage which is
+   the basic sceneshow stage for scenes and the "image map" stage for
    navigating among multiple scenes.  
 
 ## Example Scripts
@@ -102,5 +102,8 @@ errors, open the browser's Developer Tools or Web Inspector window
 while loading the scene and watch for errors printed to the developer
 console.
 
+## Could you use some free music?
+
+Check out [Free Music Archive](http://freemusicarchive.org).
 
 
