@@ -81,7 +81,7 @@ To get started with your own SceneScape:
 
 3. View your scene at:
 
-   ```http://www.scenescape.com/xyz/myfamily.scene```    
+   ```http://xyz.scenescape.com/myfamily.scene```    
 
    where "myfamily.scene" is replaced by the relative path to your scene file
    within your SceneScape repository.
@@ -95,7 +95,7 @@ To view your scene with the photo file names shown (e.g., to assist
 with timing your photos to the audio or video), add ";editing" to the
 URL, for example:
 
-   ```http://www.scenescape.com/xyz/myfamily.scene;editing```
+   ```http://xyz.scenescape.com/myfamily.scene;editing```
 
 To see notifications of problems with your scenescape script, or other
 errors, open the browser's Developer Tools or Web Inspector window
